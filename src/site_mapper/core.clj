@@ -30,5 +30,6 @@
 (defn -main [url filename-prefix]
   (let [sitemap (draw-sitemap-for-url url)]
   (site-mapper.visualize/draw sitemap filename-prefix)
+  ; Can't represent everything visually, yet. Raw data output to file.
   (spit (str filename-prefix "-text.yml") (yaml/generate-string sitemap)))
   (shutdown-agents))
