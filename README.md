@@ -13,6 +13,7 @@ lein run URL FILENAME
 - Group represent external links graphically
 - Add error handling to site crawler
 - Better organise images, external links, and internal links, within the yaml file
+- Improve visualisation
 
 ## License
 
