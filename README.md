@@ -14,6 +14,7 @@ lein run URL FILENAME
 - Add error handling to site crawler
 - Better organise images, external links, and internal links, within the yaml file
 - Improve visualisation
+- Process appears to time out, after an unknown amount of time. Improve handling of timeouts
 
 ## License
 
